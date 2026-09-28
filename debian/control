@@ -5,14 +5,14 @@ Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
 Build-Depends: debhelper (>= 9),
  dh-golang,
  golang-go,
- golang-dbus-dev,
+ golang-github-godbus-dbus-dev,
  dbus-x11,
 Standards-Version: 3.9.7
 Homepage: https://github.com/jsouthworth/objtree
 
 Package: golang-github-jsouthworth-objtree-dev
 Architecture: all
-Depends: ${misc:Depends}, golang-dbus-dev,
+Depends: ${misc:Depends}, golang-github-godbus-dbus-dev,
 Built-Using: ${misc:Built-Using}
 Description: Library implementing the object tree model of D-Bus
  Development libraries for the D-Bus object tree model
